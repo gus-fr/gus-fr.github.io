@@ -18,6 +18,25 @@
     padding-bottom: 50px;
   }
 
+  .tech-stack{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 10px;
+
+    img{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    }
+    img:hover {
+      transform: scale(2); /* Increase the size on hover */
+      transition: transform 0.3s ease; /* Add a smooth transition */
+    }
+  }
+
   .container {
     max-width: 800px;
     background: #fff;
